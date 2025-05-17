@@ -16,7 +16,7 @@ A smart console-based assistant that detects user inactivity and gently reminds 
 
 ## 🔧 How It Works
 
-- Checks for keyboard/mouse inactivity using WinAPI
+- Checks for keyboard/mouse inactivity.
 - If idle time exceeds 5 minutes, a motivational message appears
 - Logs the activity with timestamp to a file
 
@@ -35,11 +35,14 @@ A smart console-based assistant that detects user inactivity and gently reminds 
 ### 1. Compile the Code
 
 Use this in Command Prompt:
+
 gcc companion.c -o companion.exe
 
 ### 2. Run It
 ./companion.exe
+
 You’ll see:
+
 Hello, I am your Linux Companion!
 
 ### After 5 minutes of no keyboard/mouse input, messages like:
@@ -51,6 +54,9 @@ Saved to a file named companion.log:
 [2025-05-18 14:33:10] STATUS: IDLE. MESSAGE: Take a quick walk!
 
 ---
+### Screenshot:
+![image](https://github.com/user-attachments/assets/08079f02-5313-4963-9cab-e7838beb57c3)
+
 
 ⚙️ Optional Setup: Auto Start on Boot
 Use Windows Task Scheduler:
