@@ -36,18 +36,21 @@ A smart console-based assistant that detects user inactivity and gently reminds 
 
 Use this in Command Prompt:
 gcc companion.c -o companion.exe
-2. Run It
+
+### 2. Run It
 ./companion.exe
 You’ll see:
 Hello, I am your Linux Companion!
 
-After 5 minutes of no keyboard/mouse input, messages like:
+### After 5 minutes of no keyboard/mouse input, messages like:
 Rest your eyes! (Idle 5 min)
 Do a quick stretch! (Idle 5 min)
 
-📂 Log Output
+### 📂 Log Output
 Saved to a file named companion.log:
 [2025-05-18 14:33:10] STATUS: IDLE. MESSAGE: Take a quick walk!
+
+---
 
 ⚙️ Optional Setup: Auto Start on Boot
 Use Windows Task Scheduler:
