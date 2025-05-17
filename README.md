@@ -1,6 +1,6 @@
 # Linux Companion 🧠🖥️
 
-A smart console-based assistant that detects user inactivity and gently reminds them to take self-care breaks. Built in C for Windows using the WinAPI.
+A smart console-based assistant that detects user inactivity and gently reminds them to take self-care breaks. Built in C for Windows.
 
 ---
 
